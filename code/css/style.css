@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1, header p {
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    color:#0043a7;
+}
+
+h2 {
+    border-top: 2px solid #0043a7;
+    border-bottom: 2px solid #0043a7;
+    letter-spacing: 2px;
+    color: #0043a7;
+}
+
+h3 {
+    color: #0043a7;
+
+}
+
+p {
+    text-align: justify;
+}
+
+footer, footer p {
+    padding: 15px;
+    text-align: center;
+    color: #0043a7;
+    font-weight: bold;
+}
+
+footer p:hover {
+    text-decoration: underline;
+    cursor: grab;
+}
+
+.address {
+    font-family: monospace;
+    line-height: 1.5em;
+}
+
+
+h3 {
+    display: contents;
+    float: left;
+    width: 60%;
+    
+}
+
+.subHeadDate span, .dateSide {
+    text-align: right;
+    margin: 2px;
+    padding: 2px;
+    float: right;
+}
